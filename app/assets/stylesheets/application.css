@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(/assets/shadows.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  src: local('VT323'), local('VT323-Regular'), url(/assets/vt323.woff2) format('woff2');
+}
+
+.script {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.mono {
+  font-family: 'VT323';
+}
